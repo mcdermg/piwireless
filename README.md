@@ -23,8 +23,8 @@ Use this command: wpa_passphrase [ssid-name] [password-name]
 
 This command will output out a new network object that looks like this and can be used in the template wpa supplicant file so that your password is not exposed:
 
-network={
-	ssid="testNetwork"
-	#psk="testingPassword"
-	psk=575827beef2c7dbdcf817a9cd0e6b96fb0fd3f54e2c0fbf24a38eb04fb7e9aa3
-}
+	network={
+		ssid="testNetwork"
+		#psk="testingPassword"
+		psk=575827beef2c7dbdcf817a9cd0e6b96fb0fd3f54e2c0fbf24a38eb04fb7e9aa3
+	}
